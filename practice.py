@@ -29,3 +29,6 @@ def number_game():
 
 if __name__ == "__main__":
     number_game()
+
+    print("Hello GitHub!")
+print("Fork한 저장소에서 수정했습니다.")
