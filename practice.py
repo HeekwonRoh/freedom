@@ -5,12 +5,12 @@ import random
 def number_game():
     print("===== 번호 맞히기 게임 =====")
 
-    answer = random.randint(1, 100)
+    answer = random.randint(1, 90)
     attempts = 0
 
     while True:
         try:
-            guess = int(input("1~100 사이 숫자를 입력하세요: "))
+            guess = int(input("1~90 사이 숫자를 입력하세요: "))
             attempts += 1
 
             if guess < answer:
@@ -32,3 +32,5 @@ if __name__ == "__main__":
 
     print("Hello GitHub!")
 print("Fork한 저장소에서 수정했습니다.")
+
+#연습중입니다-노희권
