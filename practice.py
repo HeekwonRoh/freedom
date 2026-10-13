@@ -3,7 +3,7 @@
 import random
 
 def number_game():
-    print("===== 숫자 맞히기 게임 =====")
+    print("===== 번호 맞히기 게임 =====")
 
     answer = random.randint(1, 100)
     attempts = 0
@@ -14,13 +14,13 @@ def number_game():
             attempts += 1
 
             if guess < answer:
-                print("UP! 더 큰 숫자입니다.")
+                print("에게~! 더 큰 숫자입니다.")
 
             elif guess > answer:
-                print("DOWN! 더 작은 숫자입니다.")
+                print("너무높아요!! 더 작은 숫자입니다.")
 
             else:
-                print(f"정답입니다! {answer}")
+                print(f"성공! {answer}")
                 print(f"총 {attempts}번 만에 맞혔습니다.")
                 break
 
@@ -29,3 +29,6 @@ def number_game():
 
 if __name__ == "__main__":
     number_game()
+
+    print("Hello GitHub!")
+print("Fork한 저장소에서 수정했습니다.")
